@@ -16,7 +16,11 @@
       height: 100%;
     }
   }
-  .name,
+  .name {
+    width: 24%;
+    text-align: left;
+  }
+
   .quantity,
   .price {
     width: 23%;
@@ -35,7 +39,7 @@
   }
 
   .remove-button {
-    padding-left: 12px;
     cursor: pointer;
+    margin-left: 10px;
   }
 }
